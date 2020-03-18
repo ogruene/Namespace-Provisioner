@@ -6,7 +6,7 @@
 [![MIT License](https://img.shields.io/github/license/Daimler/namespace-provisioner)](https://github.com/Daimler/namespace-provisioner/blob/master/LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/Daimler/namespace-provisioner?sort=semver)](https://github.com/Daimler/namespace-provisioner/releases/latest)
 
-The **Namespace Provisioner** is a Kubernetes Operator that facilitates the management of multiple namespaces on kubernetes clusters.
+The **namespace-provisioner** is a Kubernetes Operator that facilitates the management of multiple namespaces on kubernetes clusters.
 You can simply annotate a Kubernetes namespace and non-application specific resources like `ImagePullSecrets`, `NetworkPolicies`, `Roles` or `RoleBindings` are automatically deployed to prepare the namespace for application deployment and testing.
 
 ## Why to use the Namespace Provisioner?
