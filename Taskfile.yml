@@ -25,7 +25,7 @@ tasks:
     silent: true
 
   deploy-secrets:
-    desc: Deploy secrets
+    desc: Deploy kube context as secret
     cmds:
     - |-
       kubectl --context={{.KUBE_CONTEXT}} config view --raw --minify=true --flatten=true | \
